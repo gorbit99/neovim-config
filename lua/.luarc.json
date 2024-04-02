@@ -1,0 +1,19 @@
+{
+    "workspace.library": [
+        "/home/peti/.config/nvim",
+        "/home/peti/.local/share/nvim/site",
+        "/home/peti/.local/share/nvim/lazy/lazy.nvim",
+        "/home/peti/.local/share/nvim/lazy/nvim-lspconfig",
+        "/home/peti/.local/share/nvim/lazy/mason-lspconfig.nvim",
+        "/home/peti/.local/share/nvim/lazy/mason.nvim",
+        "/usr/share/nvim/runtime",
+        "/usr/lib/nvim",
+        "/home/peti/.local/state/nvim/lazy/readme",
+        "${3rd}/luassert/library"
+    ],
+    "workspace.checkThirdParty": false,
+    "diagnostics.globals": [
+        "vim",
+        "a"
+    ]
+}
