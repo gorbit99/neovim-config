@@ -10,9 +10,9 @@ local function setup()
     }
   end, {})
 
-  local telescope = require('telescope')
-  local Path      = require('plenary.path')
-  local utils     = require('telescope.utils')
+  local telescope    = require('telescope')
+  local Path         = require('plenary.path')
+  local utils        = require('telescope.utils')
   local action_state = require('telescope.actions.state')
 
   telescope.setup({
@@ -64,3 +64,4 @@ return {
   dependencies = { 'nvim-lua/plenary.nvim' },
   config = setup,
 }
+
